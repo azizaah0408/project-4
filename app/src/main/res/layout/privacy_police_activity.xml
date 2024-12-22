@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="35dp"
+    android:background="@color/backgroundTheme"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/title_Privacy_Police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="Privacy Policy"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_privacy_police1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_Privacy_Police"
+        android:layout_marginTop="25dp"
+        android:text="This Privacy Policy explains the purpose of data collection and its necessity. By using the OurCloud app, you agree to comply with this policy."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_privacy_police2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police1"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/baloo"
+        android:text="Crash Logs"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/text_privacy_police3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police2"
+        android:layout_marginTop="8dp"
+        android:text="We strive to identify and resolve software bugs before releasing updates. However, some bugs may go unnoticed and cause app crashes. If this happens, crash logs may be sent to help us address the issue. We use Google Crashlytics to gather and analyze crash logs for this purpose."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_privacy_police4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police3"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/baloo"
+        android:text="Children's Privacy"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/text_privacy_police5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_privacy_police4"
+        android:layout_marginTop="8dp"
+        android:text="Users must be at least 13 years old to access the app. We do not intentionally collect personal data from children under 13. For users under 18, parental or guardian consent is required to review and accept this Privacy Policy on their behalf."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_privacy_police6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police5"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/baloo"
+        android:text="Changes to this Privacy Policy"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/text_privacy_police7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police6"
+        android:layout_marginTop="8dp"
+        android:text="This Privacy Policy may be updated periodically, with changes posted directly on this page. All updates take effect immediately upon publication, and users are encouraged to review the policy regularly."
+        android:textColor="@color/black" />
+
+</RelativeLayout>

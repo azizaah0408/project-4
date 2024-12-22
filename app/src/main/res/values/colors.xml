@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_700">#6b705c</color>
+    <color name="white">#a5a58d</color>
+    <color name="text1">#000000</color>
+    <color name="ColorPrimary">#ffe8d6</color>
+    <color name="black">#54473f</color>
+    <color name="backgroundTheme">#deaa97</color>
+</resources>
