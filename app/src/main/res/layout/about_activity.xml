@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/backgroundTheme"
+    android:layout_marginTop="35dp">
+
+    <TextView
+        android:id="@+id/titleAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="About The App"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textAbout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleAbout"
+        android:layout_marginTop="20dp"
+        android:text="This App has developed in December 2024."
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textAbout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAbout1"
+        android:layout_marginTop="13dp"
+        android:text="'Our Cloud' application, developed by Azizah and Cinta, offers a seamless way to save and organize your cherished memories. Users can upload photos, add personalized titles, and write meaningful descriptions to capture the story behind each image. With an intuitive interface and secure storage, this app ensures that your photos are always accessible, beautifully organized, and safe."
+        android:textColor="@color/black" />
+
+</RelativeLayout>
