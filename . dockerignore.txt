@@ -1,0 +1,9 @@
+*.log
+node_modules/
+.git/
+*.md
+.gitignore
+**/System Volume Information
+.git
+*.log
+node_modules
