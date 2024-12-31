@@ -6,8 +6,15 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Menggunakan parameter BRANCH_NAME untuk memilih branch
-                git branch: "${params.jijahrapip}", url: 'https://github.com/azizah/myproject.git'
+                script {
+                    checkout([$class: 'GitSCM',
+                              branches: [[name: "refs/heads/${params.jijahrapip}"]],
+                              userRemoteConfigs: [[
+                                  url: 'https://github.com/azizaah0408/project-4.git',
+                                  credentialsId: 'dc435f98-f69c-44c1-afb2-81da6df75e29'
+                              ]]
+                    ])
+                }
             }
         }
         stage('Build') {
@@ -18,7 +25,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying project...'
-                // Langkah deploy lainnya
             }
         }
     }
