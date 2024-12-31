@@ -18,8 +18,11 @@ pipeline {
             }
         }
         stage('Build') {
-            steps {
-                sh 'mvn clean install'
+    steps {
+        bat 'echo Building on Windows'
+    }
+}
+
             }
         }
         stage('Deploy') {
